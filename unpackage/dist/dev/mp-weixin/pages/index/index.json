@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "pic-content": "/my-components/picContent/picContent",
+    "tab-bar": "/my-components/tabBar/tabBar",
+    "load-more": "/my-components/loadMore/loadMore"
+  }
+}

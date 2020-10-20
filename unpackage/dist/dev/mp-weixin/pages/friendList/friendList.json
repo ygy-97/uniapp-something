@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "tab-bar": "/my-components/tabBar/tabBar",
+    "friend-list": "/my-components/friendList/friendList"
+  }
+}

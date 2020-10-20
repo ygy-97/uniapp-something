@@ -1,0 +1,1 @@
+<view><button type="default" data-event-opts="{{[['tap',[['e0',['$event']]]]]}}" bindtap="__e">add</button>{{flag+''}}<view class="{{['animate__animated',flag==true?'animate__backInDown':'']}}">xxxx</view><view class="red">xslfd</view></view>

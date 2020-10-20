@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/paper/paper",
+    "pages/mine/mine",
+    "pages/dongtai/dongtai",
+    "pages/addInput/addInput",
+    "my-components/commonList/commonList",
+    "pages/talkKid/talkKid",
+    "pages/talkDetail/talkDetail",
+    "pages/friendList/friendList",
+    "pages/userChat/userChat",
+    "pages/myCanvas/myCanvas"
+  ],
+  "subPackages": [],
+  "window": {},
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "selectedColor": "#FFDB20",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/tabbar/index.png",
+        "selectedIconPath": "./static/tabbar/indexed.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/dongtai/dongtai",
+        "iconPath": "./static/tabbar/news.png",
+        "selectedIconPath": "./static/tabbar/newsed.png",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/paper/paper",
+        "iconPath": "./static/tabbar/paper.png",
+        "selectedIconPath": "./static/tabbar/papered.png",
+        "text": "小纸条"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "./static/tabbar/home.png",
+        "selectedIconPath": "./static/tabbar/homeed.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap27.json"
+}

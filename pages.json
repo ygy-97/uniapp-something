@@ -1,0 +1,230 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"scrollIndicator": "none", //隐藏滚动条
+					"bounce": "none", //页面回弹效果
+					"titleNView": {
+						"searchInput": {
+							"align": "center",
+							"backgroundColor": "#f7f7f7",
+							"borderRadius": "10px",
+							"placeholder": "搜索糗事",
+							"placeholderColor": "#ccc",
+							"disabled": true
+						},
+						"buttons": [{
+								"color": "#000000",
+								"color": "#ff9619",
+								"colorPressed": "#bbb",
+								"float": "left",
+								"fontSize": "30px",
+								"fontSrc": "./static/font/icon.ttf",
+								"text": "\ue609"
+							},
+							{
+								"color": "#000000",
+								"text": "\ue653",
+								"color": "#000",
+								"colorPressed": "#bbb",
+								"float": "right",
+								"fontSize": "30px",
+								"fontSrc": "./static/font/icon.ttf"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": false, //返回按钮是否显示
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"align": "left",
+							// "backgroundColor": "#f7f7f7",
+							"borderRadius": "10px",
+							"placeholder": "搜索糗事",
+							"placeholderColor": "#C9C9C9"
+						},
+						"buttons": [{
+							"color": "#000000",
+							"float": "right",
+							"fontWeight": "normal",
+							"text": "取消",
+							"fontSize": "16px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/paper/paper",
+			"style": {
+				"backgroundColorTop": "#fff",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": "false"
+				}
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "paper"
+			}
+		},
+		{
+			"path": "pages/dongtai/dongtai",
+			"style": {
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/addInput/addInput",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "my-components/commonList/commonList",
+			"style": {}
+		}, {
+			"path": "pages/talkKid/talkKid",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "话题分类"
+			}
+		}, {
+			"path": "pages/talkDetail/talkDetail",
+			"style": {
+				"app-plus": {
+					"scrollIndicator": "none", //滚动条隐藏
+					"titleNView": {
+						"type": "transparent", //渐变
+						"buttons": [{
+							"type": "menu"
+						}]
+
+					}
+				}
+			}
+		}, {
+			"path": "pages/friendList/friendList",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"autoBackButton": false,
+						"searchInput": {
+							"backgroundColor": "#F7F7F7",
+							"placeholder": "搜索糗事",
+							"borderRadius": "10rpx",
+							"placeholderColor": "",
+							"align": "left"
+						},
+						"buttons": [{
+							"text": "取消",
+							"float": "right",
+							"fontSize": "32rpx",
+							"color": "#000000"
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/userChat/userChat",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+
+		}
+	    ,{
+            "path" : "pages/myCanvas/myCanvas",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/contentDetail/contentDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":false
+				}
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		// "navigationBarBackgroundColor":"#fff"
+		// "navigationBarTextStyle": "white",
+		// "navigationBarTitleText": "糗事app",
+		// // "navigationBarBackgroundColor" : "#FFDB20",
+		// "backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"selectedColor": "#FFDB20",
+		"position": "bottom", //仅微信小程序支持top
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/tabbar/index.png",
+				"selectedIconPath": "./static/tabbar/indexed.png",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/dongtai/dongtai",
+				"iconPath": "./static/tabbar/news.png",
+				"selectedIconPath": "./static/tabbar/newsed.png",
+				"text": "动态"
+			},
+			{
+				"pagePath": "pages/paper/paper",
+				"iconPath": "./static/tabbar/paper.png",
+				"selectedIconPath": "./static/tabbar/papered.png",
+				"text": "小纸条"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "./static/tabbar/home.png",
+				"selectedIconPath": "./static/tabbar/homeed.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition": {
+		//模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "xx", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

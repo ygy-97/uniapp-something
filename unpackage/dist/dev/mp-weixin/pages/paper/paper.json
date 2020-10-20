@@ -1,0 +1,9 @@
+{
+  "backgroundColorTop": "#fff",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "paper-list": "/my-components/paperList/paperList",
+    "mask-nav": "/my-components/maskNav/maskNav"
+  }
+}

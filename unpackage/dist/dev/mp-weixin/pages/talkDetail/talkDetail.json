@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tab-bar": "/my-components/tabBar/tabBar",
+    "common-list": "/my-components/commonList/commonList"
+  }
+}

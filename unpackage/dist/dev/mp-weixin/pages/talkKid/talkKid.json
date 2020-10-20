@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "话题分类",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "tab-bar": "/my-components/tabBar/tabBar",
+    "my-list": "/my-components/myList/myList"
+  }
+}
